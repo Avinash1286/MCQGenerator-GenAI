@@ -12,7 +12,7 @@ from src.mcqgenerator.logger import logging
 
 
 # loading json file
-with open('/config/workspace/Response.json', 'r') as file:
+with open('Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 
@@ -61,7 +61,7 @@ with st.form("user_inputs"):
                print(f"Total Cost: ({cb.total_cost}")
                if isinstance(response, dict):
                    #Extract the quiz data from the response
-                   quiz-response.get("quiz", None)
+                   quiz=response.get("quiz", None)
                    if quiz is not None:
                        table_data=get_table_data(quiz)
                        if table_data is not None:
