@@ -1,0 +1,4 @@
+1.  OpenAi
+2. langchain
+3. streamlit
+4. Pypdf2
